@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #213640;
+  /*   margin: 20px;
+    margin-top: 5px; */
+    
+}
+
+#global {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#left, #right {
+ width: 40%;
+ /* min-height: 411px; */
+ height: 411px;
+ background-color: #A2BFBB;
+ border-radius: 5%;
+ margin: 1% 2% 2% 2%;
+}
+
+/* #left {
+   
+    /* float: left;
+    
+}
+
+#right {
+} */
+
+p, ol {
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+}
