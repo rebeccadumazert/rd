@@ -1,17 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
+    height: 100%;
     background-color: #213640;
 }
 
 .row {
-    height: 100%;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 #gauche, #droite {
     border-radius: 4%;
     height: 500px;
     width: 50%;
+    /* margin: 5px; */
 }
 
 #gauche {
@@ -66,4 +72,13 @@ html, body {
 .navbar-light .navbar-toggler {
     color: white !important;
     border-color: white !important;
+}
+
+@media (max-width: 400px) {
+    #droite {
+        display : none;
+    }
+    #gauche {
+        width : 85%;
+    }
 }
