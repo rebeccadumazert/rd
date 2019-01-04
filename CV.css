@@ -22,7 +22,7 @@ html, body {
     background-image: url(./img/rebecca.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover; /*ok*/
 }
 
 #hello, #im {
