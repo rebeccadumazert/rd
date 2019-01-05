@@ -76,16 +76,17 @@ html, body {
     color: white !important;
 }
 
-.navbar-light .navbar-toggler {
-    color: white !important;
-    border-color: white !important;
+.nav-link {
+    font-family: 'Raleway', sans-serif !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
     #droite {
         display : none;
     }
     #gauche {
         width : 85%;
+        border-radius: 4%;
+        margin-right: 5%;
     }
 }

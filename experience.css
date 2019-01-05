@@ -5,9 +5,6 @@
 html, body {
     height: 100%;
     background-color: #213640;
-  /*   margin: 20px;
-    margin-top: 5px; */
-    
 }
 
 #global {
@@ -19,30 +16,62 @@ html, body {
 #left, #right {
  width: 40%;
  /* min-height: 411px; */
- height: 411px;
+ height: 441px;
  background-color: #A2BFBB;
  border-radius: 5%;
- margin: 1% 2% 2% 2%;
+ margin: 3% 2% 2% 2%;
 }
 
-/* #left {
-   
-    /* float: left;
-    
+.parag, .parag2, ol {
+    color: white;
+    font-family: 'Lora', serif;
 }
 
-#right {
-} */
+.parag {
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
 
-p, ol {
+.parag2 {
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-right:1.5rem;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+ol {
+    list-style: inside;
+    margin-top: 6%;
+}
+
+h1, h2 {
     color: white;
     text-align: center;
-    margin-top: 2em;
+    font-family: 'Anton', sans-serif;
 }
 
-@media (max-width: 400px) {
+h2 {
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+@media (max-width: 411px) {
     #global {
         display: flex;
         flex-direction: column;
+    }
+    #left, #right {
+        width: 95%;
+        height: 380px;
+    }
+    .parag2 {
+        display: none;
     }
 }
