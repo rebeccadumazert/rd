@@ -16,7 +16,6 @@ html, body {
 #gauche, #droite {
     height: 500px;
     width: 50%;
-    /* margin: 5px; */
     margin-bottom: 5%;
     margin-top: 1.5%;
 }
@@ -78,6 +77,14 @@ html, body {
 
 .nav-link {
     font-family: 'Raleway', sans-serif !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url(./img/burger.png) !important;
 }
 
 @media (max-width: 414px) {

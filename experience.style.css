@@ -20,6 +20,11 @@ html, body {
  background-color: #A2BFBB;
  border-radius: 5%;
  margin: 3% 2% 2% 2%;
+ transition: box-shadow .7s;
+}
+
+#left:hover, #right:hover {
+    box-shadow: 0 0 50px #A2BFBB;
 }
 
 .parag, .parag2, ol {
@@ -60,6 +65,10 @@ h2 {
 
 .nav-link {
     font-family: 'Raleway', sans-serif !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white !important;
 }
 
 @media (max-width: 411px) {
