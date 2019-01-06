@@ -1,3 +1,5 @@
+/* style général page */
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,8 @@ html, body {
     height: 100%;
     background-color: #213640;
 }
+
+/* style forme + transition */ 
 
 #global {
     height: 100%;
@@ -19,12 +23,22 @@ html, body {
  background-color: #A2BFBB;
  border-radius: 5%;
  margin: 3% 2% 2% 2%;
- transition: box-shadow .7s;
+ }
+
+/* style des titres */ 
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
 }
 
-#left:hover, #right:hover {
-    box-shadow: 0 0 50px #A2BFBB;
+h2 {
+    padding-top: 5%;
+    padding-bottom: 6%;
 }
+
+/* style contenu  paragraphes */
 
 .parag, .parag2, ol {
     color: white;
@@ -53,16 +67,7 @@ ol {
     text-align: justify;
 }
 
-h1, h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-}
-
-h2 {
-    padding-top: 5%;
-    padding-bottom: 6%;
-}
+/* changement style bootstrap */ 
 
 .nav-link {
     font-family: 'Raleway', sans-serif !important;
@@ -71,6 +76,8 @@ h2 {
 .navbar-light .navbar-toggler {
     border-color: white !important;
 }
+
+/* partie responsive */ 
 
 @media (max-width: 411px) {
     #global {

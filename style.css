@@ -1,3 +1,5 @@
+/* style général page */
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,8 @@ html, body {
     height: 100%;
     background-color: #213640;
 }
+
+/* style forme + transition */ 
 
 .row {
     display: flex;
@@ -16,7 +20,6 @@ html, body {
 #gauche, #droite {
     height: 500px;
     width: 50%;
-    margin-bottom: 5%;
     margin-top: 1.5%;
 }
 
@@ -36,6 +39,8 @@ html, body {
     border-bottom-right-radius: 4%;
     margin-right: 5%;
 }
+
+/* style contenu  paragraphes */
 
 #hello, #im {
     font-family: 'Anton', sans-serif;
@@ -62,6 +67,26 @@ html, body {
     color: white;
 }
 
+/*style footer*/
+
+footer {
+display: flex;
+}
+
+img {
+padding-top: 1.5%;
+padding-left: 0.5%; /* !!!!!!!!!!!!!! */
+}
+
+ p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1em;
+    margin-left: auto;
+ }
+
+/* changement style bootstrap */ 
+
 .bg-light {
     background-color: transparent !important;
 }
@@ -86,6 +111,8 @@ html, body {
 .navbar-light .navbar-toggler-icon{
     background-image: url(./img/burger.png) !important;
 }
+
+/* partie responsive */ 
 
 @media (max-width: 414px) {
     #droite {

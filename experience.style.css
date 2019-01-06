@@ -1,3 +1,5 @@
+/* style général page */
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +9,8 @@ html, body {
     background-color: #213640;
 }
 
+/* style forme + transition */ 
+
 #global {
     height: 100%;
     display: flex;
@@ -15,7 +19,6 @@ html, body {
 
 #left, #right {
  width: 40%;
- /* min-height: 411px; */
  height: 441px;
  background-color: #A2BFBB;
  border-radius: 5%;
@@ -26,6 +29,21 @@ html, body {
 #left:hover, #right:hover {
     box-shadow: 0 0 50px #A2BFBB;
 }
+
+/* style des titres */ 
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+/* style contenu  paragraphes */
 
 .parag, .parag2, ol {
     color: white;
@@ -43,25 +61,16 @@ html, body {
     margin-right:1.5rem;
 }
 
-.gras {
-    font-weight: bold;
-}
-
 ol {
     list-style: inside;
     margin-top: 6%;
 }
 
-h1, h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
+.gras {
+    font-weight: bold;
 }
 
-h2 {
-    padding-top: 5%;
-    padding-bottom: 6%;
-}
+/* changement style bootstrap */ 
 
 .nav-link {
     font-family: 'Raleway', sans-serif !important;
@@ -70,6 +79,8 @@ h2 {
 .navbar-light .navbar-toggler {
     border-color: white !important;
 }
+
+/* partie responsive */ 
 
 @media (max-width: 411px) {
     #global {
