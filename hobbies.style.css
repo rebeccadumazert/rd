@@ -1,0 +1,51 @@
+/* style forme + transition */
+
+.contenu {
+    width: 60%;
+    height: 441px;
+    background-color: #A2BFBB;
+    border-radius: 5%;
+    margin: 3% 2% 2% 20%;
+    transition: box-shadow .7s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenu:hover {
+    box-shadow: 0 0 50px #A2BFBB;
+}
+
+/* style titre */
+
+h1 {
+color: white;
+margin-left: auto;
+font-family: 'Anton', sans-serif;
+margin-top: 5%;
+margin-left: 40%;
+}
+
+/* style contenu */
+
+.hobbie {
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* style footer */
+
+.footer{
+    margin-left: 42%;
+}
+
+/* style responsive */
+
+@media (max-width: 414px) {
+    .contenu{
+        width: 80%;
+        height: 589px;
+        margin-left: 10%;
+   }
+}

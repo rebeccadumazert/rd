@@ -59,7 +59,7 @@ figcaption {
 
 footer {
     left: 40%;
-    position: absolute;
+    position: inherit;
     bottom: 0;
 }
 
