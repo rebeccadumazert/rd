@@ -45,7 +45,7 @@ h2 {
 
 /* style contenu  paragraphes */
 
-.parag, .parag2, ol {
+.parag, form {
     color: white;
     font-family: 'Lora', serif;
 }
@@ -53,21 +53,6 @@ h2 {
 .parag {
     text-align: center;
     margin-bottom: 0.4rem;
-}
-
-.parag2 {
-    text-align: justify;
-    margin-left: 1.5rem;
-    margin-right:1.5rem;
-}
-
-ol {
-    list-style: inside;
-    margin-top: 6%;
-}
-
-.gras {
-    font-weight: bold;
 }
 
 .link {
@@ -78,6 +63,21 @@ ol {
 .logocv {
     width: 58px;
 }
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0;
+}
+
+.formulaire {
+    margin-bottom: 9%;
+}
+
+
 /* changement style bootstrap */ 
 
 .nav-link {
@@ -90,7 +90,7 @@ ol {
 
 /* partie responsive */ 
 
-@media (max-width: 411px) {
+@media (max-width: 414px) {
     #global {
         display: flex;
         flex-direction: column;

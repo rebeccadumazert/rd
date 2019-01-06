@@ -67,6 +67,12 @@ ol {
     text-align: justify;
 }
 
+/* style footer*/ 
+
+footer {
+    margin-top: 7%;
+}
+
 /* changement style bootstrap */ 
 
 .nav-link {
