@@ -56,6 +56,12 @@ figcaption {
     text-align: center;
 }
 
+footer {
+    left: 40%;
+    position: absolute;
+    bottom: 0;
+}
+
 /* partie responsive */ 
 
 @media (max-width: 414px) {

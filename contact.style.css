@@ -1,0 +1,109 @@
+/* style général page */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #213640;
+}
+
+/* style forme + transition */ 
+
+#global {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#left, #right {
+ width: 40%;
+ height: 420px;
+ background-color: #A2BFBB;
+ border-radius: 5%;
+ margin: 3% 2% 2% 2%;
+ transition: box-shadow .7s;
+}
+
+#left:hover, #right:hover {
+    box-shadow: 0 0 50px #A2BFBB;
+}
+
+/* style des titres */ 
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+/* style contenu  paragraphes */
+
+.parag, .parag2, ol {
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.parag {
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+
+.parag2 {
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-right:1.5rem;
+}
+
+ol {
+    list-style: inside;
+    margin-top: 6%;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.link {
+    position: absolute;
+    left: 25%;
+}
+
+.logocv {
+    width: 58px;
+}
+/* changement style bootstrap */ 
+
+.nav-link {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white !important;
+}
+
+/* partie responsive */ 
+
+@media (max-width: 411px) {
+    #global {
+        display: flex;
+        flex-direction: column;
+    }
+    #left, #right {
+        width: 95%;
+        height: 420px;
+    }
+    .parag2 {
+        display: none;
+    }
+    .link {
+        position: absolute;
+        left: 40%;
+    }
+}
