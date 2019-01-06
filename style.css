@@ -73,12 +73,7 @@ footer {
 display: flex;
 }
 
-img {
-padding-top: 1.5%;
-padding-left: 0.5%; /* !!!!!!!!!!!!!! */
-}
-
- p {
+p {
     color: white;
     font-family: 'Raleway', sans-serif;
     margin-top: 1em;
