@@ -1,0 +1,113 @@
+/* style du titre */
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 5.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+/* LOADING GIF */
+
+.cssload-figure * {
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+
+.clearfix {
+	zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.cssload-figure {
+	margin:63px auto;
+	width: 1em;
+	height: 1em;
+	font-size: 13em;
+	border: 0.025em solid rgba(162,191,187,0.49);
+	animation: cssload-turn 2.28s infinite, cssload-corner 2.28s infinite;
+		-o-animation: cssload-turn 2.28s infinite, cssload-corner 2.28s infinite;
+		-ms-animation: cssload-turn 2.28s infinite, cssload-corner 2.28s infinite;
+		-webkit-animation: cssload-turn 2.28s infinite, cssload-corner 2.28s infinite;
+		-moz-animation: cssload-turn 2.28s infinite, cssload-corner 2.28s infinite;
+	transform-origin: right;
+		-o-transform-origin: right;
+		-ms-transform-origin: right;
+		-webkit-transform-origin: right;
+		-moz-transform-origin: right;
+	border-radius: 0.075em;
+}
+
+
+@keyframes cssload-turn {
+	to {
+		transform: rotate(90deg) translate(0.5em, 0.5em);
+	}
+}
+
+@-o-keyframes cssload-turn {
+	to {
+		-o-transform: rotate(90deg) translate(0.5em, 0.5em);
+	}
+}
+
+@-ms-keyframes cssload-turn {
+	to {
+		-ms-transform: rotate(90deg) translate(0.5em, 0.5em);
+	}
+}
+
+@-webkit-keyframes cssload-turn {
+	to {
+		-webkit-transform: rotate(90deg) translate(0.5em, 0.5em);
+	}
+}
+
+@-moz-keyframes cssload-turn {
+	to {
+		-moz-transform: rotate(90deg) translate(0.5em, 0.5em);
+	}
+}
+
+@keyframes cssload-corner {
+	70% {
+		border-bottom-right-radius: 0.5em;
+	}
+}
+
+@-o-keyframes cssload-corner {
+	70% {
+		border-bottom-right-radius: 0.5em;
+	}
+}
+
+@-ms-keyframes cssload-corner {
+	70% {
+		border-bottom-right-radius: 0.5em;
+	}
+}
+
+@-webkit-keyframes cssload-corner {
+	70% {
+		border-bottom-right-radius: 0.5em;
+	}
+}
+
+@-moz-keyframes cssload-corner {
+	70% {
+		border-bottom-right-radius: 0.5em;
+	}
+}
