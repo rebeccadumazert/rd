@@ -1,0 +1,72 @@
+
+
+/* style général page */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #213640;
+}
+
+/* style forme + transition */ 
+
+#glob {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 205px;
+    background-color: #A2BFBB;
+    border-radius: 4%;
+    margin: 3% 2% 2% 2%;
+    margin-left: 10%;
+    transition: box-shadow .7s;
+}
+
+#glob:hover {
+    box-shadow: 0 0 50px #A2BFBB;
+}
+
+/* style du titre */ 
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+/* style contenu. Icones + légendes */
+
+img {
+    margin-bottom: 10%;
+}
+
+.icon {
+    flex-direction: row;
+    padding: 5%
+}
+
+figcaption {
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+/* partie responsive */ 
+
+@media (max-width: 414px) {
+    #glob {
+       height: 900px;
+       flex-direction: column;
+    }
+
+    .icon {
+        margin: auto;
+    }
+}
