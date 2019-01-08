@@ -99,6 +99,10 @@ p {
     font-family: 'Raleway', sans-serif !important;
 }
 
+.nav-link:hover {
+    font-weight: bold !important;
+}
+
 .navbar-light .navbar-toggler {
     border-color: white !important;
 }
