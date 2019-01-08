@@ -1,12 +1,21 @@
+/* style général */
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
 /* style du titre */
+
+main {
+	flex-grow: 1;
+}
 
 h1 {
     color: white;
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-size: 5.5rem;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
 }
 
 footer {

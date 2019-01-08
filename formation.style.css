@@ -7,13 +7,19 @@
 html, body {
     height: 100%;
     background-color: #213640;
+    display: flex;
+    flex-direction: column;
 }
 
 /* style forme + transition */ 
 
+main {
+    flex-grow: 1;
+}
+
 #global {
     height: 100%;
-    display: flex;
+  /*   display: flex; */
     justify-content: center;
 }
 

@@ -1,8 +1,19 @@
+/* style général page */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* style forme + transition */
+
+main {
+    flex-grow: 1;
+}
 
 .contenu {
     width: 60%;
-    height: 277px;
+    height: 229px;
     background-color: #A2BFBB;
     border-radius: 5%;
     margin: 3% 2% -2% 20%;
