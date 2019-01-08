@@ -2,7 +2,7 @@
 
 .contenu {
     width: 60%;
-    height: 375px;
+    height: 277px;
     background-color: #A2BFBB;
     border-radius: 5%;
     margin: 3% 2% 2% 20%;
@@ -23,7 +23,7 @@ color: white;
 margin-left: auto;
 font-family: 'Anton', sans-serif;
 margin-top: 5%;
-margin-left: 40%;
+margin-left: 45%;
 }
 
 /* style contenu */
@@ -38,14 +38,23 @@ margin-left: 40%;
 
 .footer{
     margin-left: 42%;
+    margin-top: 10%;
 }
 
 /* style responsive */
 
 @media (max-width: 414px) {
+    h1{
+        margin-left: 35%;
+    }
+
     .contenu{
         width: 80%;
-        height: 589px;
+        height: 629px;
         margin-left: 10%;
+   }
+
+   footer{
+       margin-left: -37%;
    }
 }
