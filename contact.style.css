@@ -88,6 +88,12 @@ label {
     font-weight: bold;
 }
 
+button {
+    font-family: 'Lora', serif;
+    color: rgb(39, 143, 129);
+    margin-top: 8px;
+}
+
 /* style footer */
 footer {
     margin-top: 9px;
