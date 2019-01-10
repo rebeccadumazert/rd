@@ -13,7 +13,6 @@ main {
 
 .contenu {
     width: 50%;
-    height: auto;
     background-color: #A2BFBB;
     border-radius: 15px;
     margin: 3% 2% -2% 25%;
@@ -62,7 +61,6 @@ a {
 
     .contenu{
         width: 80%;
-        height: 629px;
         margin-left: 10%;
    }
 
