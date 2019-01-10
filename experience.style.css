@@ -101,8 +101,9 @@ footer{
         flex-direction: column;
     }
     #left, #right {
-        width: 95%;
-        height: 380px;
+        width: 80%;
+        margin: 10%;
+        padding: 2px;
     }
     .parag2 {
         display: none;
