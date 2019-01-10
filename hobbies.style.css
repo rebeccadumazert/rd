@@ -31,10 +31,8 @@ main {
 
 h1 {
 color: white;
-margin-left: auto;
+text-align: center;
 font-family: 'Anton', sans-serif;
-margin-top: 5%;
-margin-left: 45%;
 }
 
 /* style contenu */

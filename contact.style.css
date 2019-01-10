@@ -63,13 +63,21 @@ h2 {
 }
 
 .link {
-    position: absolute;
-    left: 25%;
+    display: block;
+    text-align: center;
+}
+
+
+#link {
+   color: #213640;
 }
 
 .logocv {
     width: 58px;
 }
+   
+
+/* formulaire style */
 
 form {
     text-align: center;
@@ -77,21 +85,33 @@ form {
 
 label {
     display: block;
-    margin-bottom: 0;
+    margin-bottom: 0; 
 }
 
 .formulaire {
-    margin-bottom: 9%;
+    margin-bottom: 5%;
 }
 
-.gras {
-    font-weight: bold;
+.inp {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+#msg {
+    border: 1px solid white;
 }
 
 button {
-    font-family: 'Lora', serif;
     color: rgb(39, 143, 129);
     margin-top: 8px;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
 }
 
 /* style footer */
