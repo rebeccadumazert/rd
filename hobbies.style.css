@@ -12,16 +12,16 @@ main {
 }
 
 .contenu {
-    width: 60%;
-    height: 229px;
+    width: 50%;
+    height: auto;
     background-color: #A2BFBB;
     border-radius: 15px;
-    margin: 3% 2% -2% 20%;
+    margin: 3% 2% -2% 25%;
+    padding: 8px;
     transition: box-shadow .7s;
     display: flex;
     flex-direction: column;
 }
-
 
 .contenu:hover {
     box-shadow: 0 0 50px #A2BFBB;

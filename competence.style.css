@@ -55,8 +55,8 @@ img {
 
 figcaption {
     color: white;
-    font-family: 'Lora', serif;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+   /*  font-weight: bold; */
 }
 
 .center {
@@ -68,6 +68,13 @@ footer {
     position: inherit;
     bottom: 0;
     /* margin-top: 11%; */
+}
+
+/* centrer les images */
+
+.competences {
+    display: block;
+    margin: auto;
 }
 
 /* partie responsive */ 

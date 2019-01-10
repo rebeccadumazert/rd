@@ -28,7 +28,7 @@ main {
  width: 40%;
  height: 441px;
  background-color: #A2BFBB;
- border-radius: 5%;
+ border-radius: 15px;
  margin: 3% 2% 2% 2%;
  transition: box-shadow .7s;
 }
@@ -54,7 +54,7 @@ h2 {
 
 .parag, .parag2, ol {
     color: white;
-    font-family: 'Lora', serif;
+    font-family:  'Raleway', sans-serif;
 }
 
 .parag {
