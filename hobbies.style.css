@@ -43,6 +43,10 @@ font-family: 'Anton', sans-serif;
     margin-right: 8%;
 }
 
+a {
+    color: #213640;
+}
+
 /* style footer */
 
 .footer {
