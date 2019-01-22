@@ -25,11 +25,10 @@ main {
 
 #left, #right {
  width: 40%;
- height: auto;
  background-color: #A2BFBB;
  border-radius: 15px;
  margin: 3% 2% 2% 2%;
- padding-bottom: 6px;
+ padding: 20px;
  }
 
 /* style des titres */ 
